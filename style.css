@@ -164,8 +164,8 @@ body {
     margin-bottom: 100px;
 }
 .lists>h5 {
-    margin-right: 40px;
-    padding-right: 15px;
+    padding-right: 25px;
+    margin-right: 20px;
     color: #B3B3B3;
     font-size: 17px;
     font-family: DM Sans;
@@ -256,39 +256,56 @@ body {
     color: white;
 }
 #playlistDetail {
+    width: auto;
+    height:auto;
     margin-left: 265px;
     margin-bottom: 100px;
     padding-top: 20px;
 }
 .playlist {
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
+    height: 100%;
     color: white;
+    margin-top: 30px;
+    color: white;
+    font-size: 14px;
+    font-family: Circular Std;
+    font-weight: 400;
+    word-wrap: break-word;
+    padding-bottom: 20px;
 }
-.list1 {
-    display: flex;
+.l1>img {
+    margin-left: 7px;
 }
-.name {
-    display: flex;
-    flex-direction: column;
+.titles>h6 {
+    font-size: 7px;
+    font-weight: 400;
+    margin-left: 10px;
 }
-.coll1 {
-    text-align: center;
-    text-align: justify;
-    align-items: center;
+
+@media screen and (max-width:480px){
+    .topbar {
+        display: flex;
+        flex-direction: column;
+    }
+    .grid {
+        align-items: center;
+        text-align: left;
+    }
+    .coll2 {
+        margin-bottom: 30px;
+    }
+    .coll3 {
+        margin-left: 20px;
+    }
+    .coll4 {
+        margin-left: 20px;
+    }
 }
-.coll2 {
-    text-align: center;
-    text-align: justify;
-}
-.coll3 {
-    text-align: center;
-    text-align: justify;
-}
-.coll4 {
-    text-align: center;
-    text-align: justify;
-}
+
+
+
+
 
 
 
